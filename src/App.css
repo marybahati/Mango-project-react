@@ -1,22 +1,185 @@
-.App {
+body{
+  font-family: arial;
+}
+
+.bg{
+  background-image: url("https://media.holidayme.com/wp-content/uploads/2015/05/mango-cover-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 550px;
+}
+.fade{
+  background-color: #403e3e;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+.container{
+  width: 1200px;
+  overflow: auto;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.topnav a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+  color: green;
+}
+.main{
+  width: 1350px;
+  margin: 0 auto;
+}
+.intro h2{
+  font-size: 40px;
   color: white;
+  text-align: center;
+  margin-top: 150px;
 }
-
-.App-link {
-  color: #09d3ac;
+.pro1{
+  width: 350px;
+  margin-right: 15px;
+  background-color: #e7e2e3;
+  color: #403e3e;
+  float: left;
+}
+.pro2{
+  width: 350px;
+  margin-right: 15px;
+  background-color: #e7e2e3;
+  color: #403e3e;
+  float: left;
+}
+.pro3{
+  width: 350px;
+  background-color: #e7e2e3;
+  float: left;
+  color: #403e3e;
+}
+.pro{
+  text-align: center;
+  color: #555D50;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.pro1 a{
+  margin-left: 134px;
+  margin-bottom: 40px;
+}
+.pro1 h5{
+  text-align: center;
+}
+.pro2 a{
+  margin-left: 134px;
+  margin-bottom: 40px;
+}
+.pro2 h5{
+  text-align: center;
+}
+.pro3 a{
+  margin-left: 134px;
+  margin-bottom: 40px;
+}
+.pro3 h5{
+  text-align: center;
+}
+.features h4{
+}
+.prd img{
+margin: 40px 40px 0px 40px;
+}
+.fet{
+  width: 45%;
+  float: left;
+  margin-right: 9%;
+}
+.fet2{
+  width: 35%;
+  margin-top: 180px;
+  float: left;
+}
+.steps{
+  width: 40%;
+  margin-right: 10%;
+  margin-top: 10%;
+  float: left;
+}
+.steps h4{
+  color: #3c3821;
+}
+.video{
+  width:47%;
+  float: left; 
+}
+.step{
+  margin-top: 100px;
+}
+.fet img{
+  margin-top: 120px;
+  width: 500px;
+}
+.video img{
+  margin-top: 60px;
+  width: 520px;
+}
+.video2{
+  margin-top: 2%;
+}
+.img1{
+  width: 46%;
+  margin-right: 4%;
+  margin-bottom: 2%;
+  float: left;
+}
+.img1 img{
+  width: 500px;
+}
+.img2 img{
+  width: 500px;
+}
+.img2{
+  width: 48%;
+  margin-bottom: 2%;
+  float: left;
+}
+.input{
+  margin-bottom: 15px;
+}
+.contact{
+  background-color:grey;
+  width: auto;
+  margin: 0 auto;
+}
+form h4{
+  margin-top: 115px;
+}
+form {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+.details{
+  width: 42%;
+  float: left;
+  margin-top: 140px;
+  margin-left: 50px;
+}
+.link a{
+  margin-right: 15px;
+  color: green;
+  text-decoration: none;
+}
+.link a:hover{
+  text-decoration: none;
+  color: white;
 }
